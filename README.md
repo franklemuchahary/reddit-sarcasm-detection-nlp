@@ -30,25 +30,6 @@ Unit of Analysis: A comment in Reddit <br>
 
 <br><br>
 
-# Project Schedule
-
-We have divided the project into 5 different phases in order to be able to tackle the different pieces of the project in a much more structured manner. These phases are the following: 
-* `Phase 1:` This phase involves definining the problem statement and brainstorming for various ideas, data sources, and access techiniques
-* `Pahse 2:` In this phase we will be extracting data from different sources and cleaning the obtained data
-* `Phase 3:` We will begin with the data transformation and reduction steps in this phase of the project
-* `Phase 4:` Exploratory Data Analysis will be carried out on the cleaned and transformed datasets in this phase of the project. We will try to generate insights and identify which variables or metrics could help us in the predictive modeling phase of the project. We will be completing all the tasks till phase 4 for Project Deliverable 1.
-* `Phase 5:` In this phase we will mostly be focusing on developing predictive models for our task i.e. Detecting Sarcasm in Reddit Comments and generating insights based on the model outputs. This phase will be carried out for Project Deliverable 2.
-
-A detailed description of the tasks for each phase and the respective task owners have been shown in the timeline chart below. 
-
-The snapshot of our project timeline has been shown below. However, the latest timeline could change due to various circumstances and the latest project schedule/timeline can be accessed through this [link](https://ostatemailokstate-my.sharepoint.com/:x:/g/personal/frankle_muchahary_okstate_edu/EYBcPhLyA1xGmlLA0gCi06oBLNKqCMFBKHXVvaekHbJZyA?e=ZilqS3).
-
-<br>
-
-![](assets/timeline_chart_1.png)
-
-<br><br>
-
 # Data Preparation
 
 The data preparation process for this project includes obtaining data from `Kaggle`, extracting additional user-related information through scraping, cleaning the data, carrying out preprocessing for the text columns in the dataset, and finally consolidating the datasets obtained from different sources or preprocessing methods into a combined master dataset that can be used down the road for predictive modeling purposes. A majority of the data preparation was carried out using python and the following python libraries were used for the data preparation process: `asyncio`, `beautifulsoup4`, `dateutil`, `multiprocessing`, `nltk`, `pandas`, `requests`, and `scikit-learn`
